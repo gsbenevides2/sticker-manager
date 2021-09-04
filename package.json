@@ -6,5 +6,9 @@
   "repository": "https://github.com/gsbenevides2/sticker-manager",
   "author": "gsbenevides2",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
 }
