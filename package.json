@@ -1,0 +1,10 @@
+{
+  "name": "sticker-manager",
+  "version": "1.0.0",
+  "description": "Um gerenciador de sticker para WhatsApp",
+  "main": "build/start.js",
+  "repository": "https://github.com/gsbenevides2/sticker-manager",
+  "author": "gsbenevides2",
+  "license": "MIT",
+  "private": false
+}
