@@ -19,7 +19,7 @@ const storage = getStorage(app)
 const stickersCollection = collection(firestore, 'stickers') as CollectionReference<FirebaseStickerDocument>
 const packsCollection = collection(firestore, 'packs') as CollectionReference<FirebasePackDocument>
 
-const serverUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : ''
+const serverUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : 'https://z21f0f399-z01ded4db-gtw.qovery.io'
 
 function App () {
   const [showStickerModal, setStickerModal] = React.useState(false)
